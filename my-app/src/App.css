@@ -1,0 +1,136 @@
+*{
+  color: darkslategray;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.AppLayout{
+  width: 80%;
+}
+
+.app_title{
+  font-size: 48px;
+  font-weight: bold;
+  color: darkslategray;
+}
+
+.todoForm{
+  background-color: #c4c4c4;
+  border: 1px solid #c4c4c4;
+  width: 100%;
+  min-height: 100px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  min-width: 200px;
+  max-height: 30px;
+  margin: 4px 0;
+}
+.flex_1{
+  flex: 1
+}
+.flex_2{
+  flex: 2
+}
+.field_title{
+  font-size: 16px;
+  min-width: 80px;
+  margin: 2px 0px;
+  display: inline-block;
+}
+
+.dropdown{
+  min-height: 25px !important;
+}
+
+.todo_container{
+  margin: 10px 0;
+  border: 1px solid gray;
+  padding: 10px;
+  width: 100%;
+}
+
+.dropBox{
+  margin: 0 5px;
+  flex: 1;
+}
+
+.error-msg{
+  color: red;
+}
+
+.header_title{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.badge{
+  border-radius: 2px;
+  background-color: gray;
+  color: white;
+  font-weight: bold;
+  padding: 5px;
+  margin-top: 10px;
+  
+}
+
+.btn{
+  padding: 5px;
+  border: 2px solid transparent;
+  outline: none;
+  border-radius: 2px;
+  color: whitesmoke;
+  background-color: darkslategray;
+  font-weight: bold;
+}
+
+.btn:hover{
+  cursor: pointer;
+  color: darkslategray;
+  background-color: whitesmoke;
+  border: 2px solid darkslategray;
+}
+
+.filter_container{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid gray;
+  margin: 10px 0;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
